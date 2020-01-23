@@ -1,0 +1,27 @@
+{
+
+    "manifest_version": 2,
+    "name": "GitTabViewer",
+    "version": "1.0",
+
+    "description": "Views a custom set tab spaces for github editor.",
+
+    "content_scripts": [
+        {
+            "run_at": "document_end",
+            "matches": [
+                "https://github.com/*/*",
+                "https://gist.github.com/*/*",
+                "https://raw.githubusercontent.com/*/*"
+            ],
+            "css": ["gittab.css"]
+        }
+    ],
+
+    "permissions": [
+        "https://github.com/*/*",
+        "https://gist.github.com/*/*",
+        "https://raw.githubusercontent.com/*/*"
+	]
+
+}
