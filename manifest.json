@@ -2,7 +2,7 @@
 
     "manifest_version": 2,
     "name": "GitTabViewer",
-    "version": "1.1",
+    "version": "1.2",
 
     "description": "Views a custom set tab spaces for github editor.",
 
